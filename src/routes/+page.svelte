@@ -64,6 +64,15 @@
 
 <svelte:head>
   <title>{frames[currentFrame]}</title>
+
+  <meta name="description" content="pisssssssss 😋" />
+  <meta name="og:title" content="piss" />
+  <meta name="og:description" content="pisssssssss 😋" />
+  <meta name="og:site_name" content="piss.lol" />
+  <meta name="theme-color" content="#f7d748" />
+  <meta name="og:image" content="/piss.png" />
+  <meta property="og:image:width" content="128" />
+  <meta property="og:image:height" content="128" />
 </svelte:head>
 
 <div class="flex animate-pulse p-3">
