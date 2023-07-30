@@ -50,4 +50,4 @@
   <title>{frames[currentFrame]}</title>
 </svelte:head>
 
-<h1 class="mt-14 text-center font-serif text-6xl font-medium">{frames[currentFrame]}</h1>
+<h1 class="mt-14 text-center font-serif text-6xl font-medium">{frames[currentFrame]} UGH</h1>
