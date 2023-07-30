@@ -48,7 +48,9 @@ jobs:
         run: pnpm run build
 
       - name: rename
-        run: mv build docs
+        run: |
+          rm -rf docs
+          mv build docs
 
       - name: deploy page changes
         uses: stefanzweifel/git-auto-commit-action@v4
