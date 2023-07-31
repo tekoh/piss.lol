@@ -75,9 +75,12 @@
   <meta property="og:image:height" content="128" />
 </svelte:head>
 
-<div class="flex animate-pulse p-3">
+<div class="flex gap-4 p-3">
   <a href="https://github.com/tekoh/piss.lol" target="_blank">
-    <Github size="32" color="#8b5cf6" />
+    <Github size="32" strokeWidth="1.5" color="#8b5cf6" />
+  </a>
+  <a href="https://nypsi.xyz" target="_blank">
+    <img src="/nypsi.webp" class="h-8" alt="" />
   </a>
 </div>
 
