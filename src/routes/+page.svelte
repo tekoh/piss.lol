@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { goto } from "$app/navigation";
   import { Github } from "lucide-svelte";
   import { onMount } from "svelte";
 
@@ -35,7 +34,6 @@
   let pissDirection: "up" | "down" = "up";
 
   onMount(() => {
-    goto("https://grabify.link/776GJO");
     setTimeout(() => {
       setInterval(() => {
         if (currentFrame === frames.length - 1) {
